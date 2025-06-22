@@ -209,7 +209,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5                                &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8          &kp NUMBER_9  &kp NUMBER_0
 &trans        &trans        &trans        &trans            &trans        &trans                &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp MINUS     &kp EQUAL
 &trans        &trans        &trans        &trans            &trans        &trans                &trans  &kp SEMICOLON     &kp SQT            &kp COMMA             &kp COMMA     &kp SLASH
-&trans        &trans        &trans        &lt 4 INT_HENKAN  &lt 5 SPACE   &lt 1 INT_MUHENKAN            &trans            &trans                                                               &trans
+&trans        &trans        &trans        &lt 5 INT_HENKAN  &lt 1 SPACE   &lt 4 INT_MUHENKAN            &trans            &trans                                                               &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
