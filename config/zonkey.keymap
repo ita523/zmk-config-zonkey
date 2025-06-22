@@ -195,10 +195,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R             &kp T                                             &kp Y            &kp U          &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F             &kp G        &kp TAB               &kp MINUS      &kp H            &kp J          &kp K      &kp L    &kp RETURN
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V        &kp B                 &kp LC(SPACE)  &kp N            &kp M          &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 1 SPACE  &lt 2 INT_MUHENKAN                   &kp RIGHT_SHIFT  &kp BACKSPACE                                  &kp ESC
+&kp Q           &kp W         &kp E         &kp R             &kp T                                    &kp Y      &kp U          &kp I      &kp O    &kp P
+&kp A           &kp S         &kp D         &kp F             &kp G        &kp ESC      &kp MINUS      &kp H      &kp J          &kp K      &kp L    &kp BACKSPACE
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V        &kp B        &kp LC(SPACE)  &kp N      &kp M          &kp COMMA  &kp DOT  &kp RETURN
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 1 SPACE  &lt 2 TAB                   &kp SLASH  &kp BACKSPACE                                     &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -229,7 +229,7 @@
         layer_3 {
             bindings = <
 &kp F1  &kp F2   &kp F3   &kp F4            &kp F5                                     &trans             &trans           &kp LC(LEFT)          &kp LC(UP)  &kp LC(RIGHT)
-&kp F6  &kp F7   &kp F8   &kp F9            &kp F10      &trans                &trans  &kp LG(T)          &kp LG(W)        &kp LG(LEFT_BRACKET)  &kp UP      &kp LC(RIGHT_BRACKET)
+&kp F6  &kp F7   &kp F8   &kp F9            &kp F10      &trans                &trans  &kp LG(T)          &kp LG(W)        &kp LG(LEFT_BRACKET)  &kp UP      &kp LG(RIGHT_BRACKET)
 &trans  &kp F11  &kp F12  &trans            &trans       &trans                &trans  &kp LG(PLUS)       &kp LG(MINUS)    &kp LEFT              &kp DOWN    &kp RIGHT
 &trans  &trans   &trans   &lt 3 INT_HENKAN  &lt 0 SPACE  &lt 4 INT_MUHENKAN            &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                                                           &kp C_MUTE
             >;
