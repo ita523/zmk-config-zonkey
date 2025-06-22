@@ -206,10 +206,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC       &trans  &trans  &trans            &trans                                          &trans       &trans  &moA    &moB  &moC
-&kp TAB       &trans  &trans  &trans            &trans       &trans                &trans       &trans       &trans  &trans  &moD  &moE
-&trans        &trans  &trans  &trans            &trans       &trans                &kp JP_EISU  &kp JP_KANA  &trans  &moF    &moG  &moH
-&mt LCTL ESC  &trans  &trans  &lt 5 INT_HENKAN  &lt 4 SPACE  &lt 1 INT_MUHENKAN                 &trans       &trans                      &moI
+&kp ESC  &trans  &trans  &trans            &trans                                          &trans       &trans  &moA    &moB  &moC
+&kp TAB  &trans  &trans  &trans            &trans       &trans                &trans       &trans       &trans  &trans  &moD  &moE
+&trans   &trans  &trans  &trans            &trans       &trans                &kp JP_EISU  &kp JP_KANA  &trans  &moF    &moG  &moH
+&kp ESC  &trans  &trans  &lt 5 INT_HENKAN  &lt 4 SPACE  &lt 1 INT_MUHENKAN                 &trans       &trans                      &moI
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -261,7 +261,7 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB4  &trans    &mkp MB5  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans                                &trans
